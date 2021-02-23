@@ -46,10 +46,29 @@ I am passionate junior web developer from Ukraine. I love to learn new technolog
 
 ---
 
-#### 5. Education
+#### 5. Code snippet
+##### Greatest common divisor (JS solution):
+
+```javascript
+function mygcd(x,y){
+  if ((typeof x !== 'number') || (typeof y !== 'number')) 
+    return false;
+  x = Math.abs(x);
+  y = Math.abs(y);
+  while(y) {
+    var t = y;
+    y = x % y;
+    x = t;
+  }
+  return x;
+}
+```
+---
+
+#### 6. Education
 
 > 2007 - 2014 | Tavria State Agrotechnological University | Power Engineer/ Master Degree
 
-### 6. English level
+### 7. English level
 
 Key English Test - A2
